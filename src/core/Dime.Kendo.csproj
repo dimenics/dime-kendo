@@ -8,27 +8,26 @@
   </PropertyGroup>
 
   <PropertyGroup>
-    <VersionPrefix>1.0.1</VersionPrefix>
+    <VersionPrefix>1.2.1</VersionPrefix>
     <Authors>Dimenics</Authors>
-    <TargetFrameworks>netcoreapp2.0;netcoreapp1.1;net461</TargetFrameworks>
+    <TargetFrameworks>netstandard2.0;net461</TargetFrameworks>
     <AssemblyName>Dime.Kendo</AssemblyName>    
     <Description>.NET classes for Kendo UI</Description>
     <PackageId>Dime.Kendo</PackageId>
-    <PackageIconUrl>http://dimenuget.azurewebsites.net/Images/dimenuget.png</PackageIconUrl>
-    <RuntimeFrameworkVersion Condition=" '$(TargetFramework)' == 'netcoreapp1.1' ">1.1.1</RuntimeFrameworkVersion>
+    <PackageIconUrl>http://dimenuget.azurewebsites.net/Images/dimenuget.png</PackageIconUrl>    
     <GenerateAssemblyConfigurationAttribute>false</GenerateAssemblyConfigurationAttribute>
     <GenerateAssemblyCompanyAttribute>false</GenerateAssemblyCompanyAttribute>
     <GenerateAssemblyDescriptionAttribute>false</GenerateAssemblyDescriptionAttribute>
     <GenerateAssemblyProductAttribute>false</GenerateAssemblyProductAttribute>
-    <Version>1.0.1.3</Version>
+    <Version>1.2.1</Version>
     <NeutralLanguage>en</NeutralLanguage>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <IncludeSource>True</IncludeSource>
     <IncludeSymbols>True</IncludeSymbols>
-    <AssemblyVersion>1.0.1.3</AssemblyVersion>
-    <Copyright>Copyright © 2017</Copyright>
+    <AssemblyVersion>1.2.1.0</AssemblyVersion>
+    <Copyright>Copyright © 2020</Copyright>
     <RootNamespace>Dime.Kendo</RootNamespace>
-    <FileVersion>1.0.1.3</FileVersion>
+    <FileVersion>1.2.1.0</FileVersion>
     <PackageProjectUrl>http://www.dimenics.com</PackageProjectUrl>
   </PropertyGroup>
 
