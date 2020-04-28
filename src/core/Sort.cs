@@ -37,10 +37,7 @@ namespace Dime.Kendo
         /// <summary>
         /// Converts to form required by Dynamic Linq e.g. "Field1 desc"
         /// </summary>
-        public string ToExpression()
-        {
-            return Field + " " + Dir;
-        }
+        public string ToExpression() => Field + " " + Dir;
 
         #endregion Methods
     }

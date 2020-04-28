@@ -4,19 +4,13 @@ namespace Dime.Kendo
 {
     public class DataSourceRequest
     {
-        #region Constructor
-
         /// <summary>
         ///
         /// </summary>
         public DataSourceRequest()
         {
-            this.Sort = new HashSet<Sort>();
+            Sort = new HashSet<Sort>();
         }
-
-        #endregion Constructor
-
-        #region Properties
 
         /// <summary>
         /// The amount of items to take
@@ -47,7 +41,5 @@ namespace Dime.Kendo
         /// The filter to apply to the collection
         /// </summary>
         public virtual Filter Filter { get; set; }
-
-        #endregion Properties
     }
 }

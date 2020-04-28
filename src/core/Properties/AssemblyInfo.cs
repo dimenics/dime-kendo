@@ -7,7 +7,7 @@ using System.Runtime.InteropServices;
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("Dimenics")]
 [assembly: AssemblyDescription(".NET classes for Kendo Web operations such as groupers, sorters and filters")]
-[assembly: AssemblyProduct("Dime.Web.Kendo")]
+[assembly: AssemblyProduct("Dimenics")]
 [assembly: AssemblyTrademark("")]
 
 // Setting ComVisible to false makes the types in this assembly not visible
